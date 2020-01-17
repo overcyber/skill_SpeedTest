@@ -1,5 +1,7 @@
 # Speedtest
 
+[![Continous Integration](https://gitlab.com/project-alice-assistant/skills/skill_Speedtest/badges/master/pipeline.svg)](https://gitlab.com/project-alice-assistant/skills/skill_Speedtest/pipelines/latest)
+
 ### Download
 
 ##### > WGET method
