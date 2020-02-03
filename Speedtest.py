@@ -16,7 +16,7 @@ class Speedtest(AliceSkill):
 	@Online
 	def runSpeedtest(self, session: DialogSession):
 		self.ThreadManager.doLater(interval=0, func=self.executeSpeedtest, kwargs={'session': session})
-		self.log.info('Starting Speedtest')
+		self.logInfo('Starting Speedtest')
 		self.endDialog(sessionId=session.sessionId, text=self.randomTalk('running'))
 
 
@@ -32,5 +32,5 @@ class Speedtest(AliceSkill):
 		result = speed.results.dict()
 		downspeed = '{:.2f}'.format(result['download']/1000000)
 		upspeed = '{:.2f}'.format(result['upload']/1000000)
-		self.log.info(f'Download speed: {downspeed} Mbps, Upload speed: {upspeed} Mbps')
+		self.logInfo(f'Download speed: {downspeed} Mbps, Upload speed: {upspeed} Mbps')
 		self.say(text=self.randomTalk(text='result', replace=[downspeed, upspeed]), siteId=session.siteId)
