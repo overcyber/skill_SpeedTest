@@ -4,7 +4,7 @@
 	"icon": "fab fa-battle-net",
 	"author": "maxbachmann",
 	"maintainers": ["Psychokiller1888"],
-	"desc": "run internet speed test",
+	"desc": "Run internet speed test",
 	"aliceMinVersion": "1.0.0-a5",
 	"systemRequirements": [],
 	"pipRequirements": ["speedtest-cli"],
