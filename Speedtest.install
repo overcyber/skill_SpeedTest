@@ -2,6 +2,7 @@
 	"name": "Speedtest",
 	"version": "1.1.2",
 	"icon": "fab fa-battle-net",
+	"category": "undefined",
 	"author": "maxbachmann",
 	"maintainers": ["Psychokiller1888"],
 	"desc": "Run internet speed test",
