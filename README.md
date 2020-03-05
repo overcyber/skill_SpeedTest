@@ -2,13 +2,6 @@
 
 [![Continous Integration](https://gitlab.com/project-alice-assistant/skills/skill_Speedtest/badges/master/pipeline.svg)](https://gitlab.com/project-alice-assistant/skills/skill_Speedtest/pipelines/latest)
 
-### Download
-
-##### > WGET method
-```bash
-wget http://skills.projectalice.ch/Speedtest -O ~/ProjectAlice/system/skillInstallTickets/Speedtest.install
-```
-
 ### Description
 run internet speed test
 
