@@ -2,7 +2,6 @@
 
 [![Continous Integration](https://gitlab.com/project-alice-assistant/skills/skill_Speedtest/badges/master/pipeline.svg)](https://gitlab.com/project-alice-assistant/skills/skill_Speedtest/pipelines/latest)
 
-### Description
 run internet speed test
 
 This skill uses the speedtest-cli (https://github.com/sivel/speedtest-cli) which runs an internet bandwidth test using speedtest.net.
@@ -15,13 +14,11 @@ Examples for Raspberry Pi:
 
 If a Raspberry Pi 3 B - connected to WiFi - runs Alice you won't get more than 40 Mbit/s from the speedtest despite your internet connection may have more bandwith.
 
-- Version: 1.1.2
 - Author: maxbachmann
 - Maintainers: Psycho
 - Alice minimum Version: 1.0.0-a5
-- Conditions:
+- Languages:
   - en
   - de
   - fr
   - online
-- Requirements: N/A
