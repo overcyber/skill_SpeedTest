@@ -1,6 +1,7 @@
 # Speedtest
 
 [![Continous Integration](https://gitlab.com/project-alice-assistant/skills/skill_Speedtest/badges/master/pipeline.svg)](https://gitlab.com/project-alice-assistant/skills/skill_Speedtest/pipelines/latest)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=project-alice-assistant_skill_Speedtest&metric=alert_status)](https://sonarcloud.io/dashboard?id=project-alice-assistant_skill_Speedtest)
 
 run internet speed test
 
