@@ -1,12 +1,9 @@
 {
 	"skill": "Speedtest",
-	"icon": "lamp",
-	"description": "run internet speed test",
 	"slotTypes": [],
 	"intents": [
 		{
 			"name": "Speedtest",
-			"description": "L'utilisateur veut faire un test de vitesse internet",
 			"enabledByDefault": true,
 			"utterances": [
 				"lance un test de vitesse internet",
