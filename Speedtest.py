@@ -33,4 +33,4 @@ class Speedtest(AliceSkill):
 		downspeed = '{:.2f}'.format(result['download']/1000000)
 		upspeed = '{:.2f}'.format(result['upload']/1000000)
 		self.logInfo(f'Download speed: {downspeed} Mbps, Upload speed: {upspeed} Mbps')
-		self.say(text=self.randomTalk(text='result', replace=[downspeed, upspeed]), siteId=session.siteId)
+		self.say(text=self.randomTalk(text='result', replace=[downspeed, upspeed]), deviceUid=session.deviceUid)
